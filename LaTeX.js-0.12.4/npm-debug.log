@@ -1,0 +1,287 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'latex.js' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData latex.js
+8 silly fetchNamedPackageData latex.js
+9 silly mapToRegistry name latex.js
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/latex.js
+13 verbose request uri https://registry.npmjs.org/latex.js
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 3:44:35 AM
+16 verbose request id 0ba3b9d5537fd664
+17 verbose etag W/"e08b67bbf3804d376d73beb5c6001706"
+18 verbose lastModified Sun, 07 Jun 2020 22:58:36 GMT
+19 http request GET https://registry.npmjs.org/latex.js
+20 http 304 https://registry.npmjs.org/latex.js
+21 verbose headers { date: 'Sat, 09 Oct 2021 03:44:35 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'cf-ray': '69b49c801d0c2931-ORD',
+21 verbose headers   age: '96',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"e08b67bbf3804d376d73beb5c6001706"',
+21 verbose headers   'last-modified': 'Sun, 07 Jun 2020 22:58:36 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sat, 09 Oct 2021 03:44:35 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'cf-ray': '69b49c801d0c2931-ORD',
+22 silly get     age: '96',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"e08b67bbf3804d376d73beb5c6001706"',
+22 silly get     'last-modified': 'Sun, 07 Jun 2020 22:58:36 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/latex.js from cache
+24 verbose get saving latex.js to /home/mike/.npm/registry.npmjs.org/latex.js/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule latex.js@0.12.4 checking installable status
+38 silly cache add args [ 'latex.js', null ]
+39 verbose cache add spec latex.js
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'latex.js',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'latex.js',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed latex.js@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for latex.js
+43 info addNameTag [ 'latex.js', 'latest' ]
+44 silly mapToRegistry name latex.js
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/latex.js
+48 verbose addNameTag registry:https://registry.npmjs.org/latex.js not in flight; fetching
+49 verbose get https://registry.npmjs.org/latex.js not expired, no request
+50 silly addNameTag next cb for latex.js with tag latest
+51 silly addNamed latex.js@0.12.4
+52 verbose addNamed "0.12.4" is a plain semver version for latex.js
+53 silly cache afterAdd latex.js@0.12.4
+54 verbose afterAdd /home/mike/.npm/latex.js/0.12.4/package/package.json not in flight; writing
+55 verbose afterAdd /home/mike/.npm/latex.js/0.12.4/package/package.json written
+56 silly fetchNamedPackageData commander
+57 silly mapToRegistry name commander
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/commander
+61 silly fetchNamedPackageData fs-extra
+62 silly mapToRegistry name fs-extra
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+66 silly fetchNamedPackageData js-beautify
+67 silly mapToRegistry name js-beautify
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/js-beautify
+71 silly fetchNamedPackageData stdin
+72 silly mapToRegistry name stdin
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/stdin
+76 silly fetchNamedPackageData hyphenation.en-us
+77 silly mapToRegistry name hyphenation.en-us
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/hyphenation.en-us
+81 silly fetchNamedPackageData hyphenation.de
+82 silly mapToRegistry name hyphenation.de
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/hyphenation.de
+86 silly fetchNamedPackageData svgdom
+87 silly mapToRegistry name svgdom
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/svgdom
+91 verbose request uri https://registry.npmjs.org/commander
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 3:44:36 AM
+94 verbose etag W/"a11d1d4d8b489da855a1eec24aa48fec"
+95 verbose lastModified Fri, 10 Sep 2021 07:00:36 GMT
+96 http request GET https://registry.npmjs.org/commander
+97 verbose request uri https://registry.npmjs.org/fs-extra
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 3:44:36 AM
+100 verbose etag W/"92c81e5e10f42193123cc0b8346b3cb2"
+101 verbose lastModified Mon, 03 May 2021 22:05:39 GMT
+102 http request GET https://registry.npmjs.org/fs-extra
+103 verbose request uri https://registry.npmjs.org/js-beautify
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 3:44:36 AM
+106 verbose etag W/"669db674aa7d719eafe10c45b3da584f"
+107 verbose lastModified Mon, 14 Jun 2021 07:58:27 GMT
+108 http request GET https://registry.npmjs.org/js-beautify
+109 verbose request uri https://registry.npmjs.org/stdin
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 3:44:36 AM
+112 verbose etag W/"3f784722593b1303fc8a9d4f0e61e4cc"
+113 verbose lastModified Sun, 27 May 2018 18:14:31 GMT
+114 http request GET https://registry.npmjs.org/stdin
+115 verbose request uri https://registry.npmjs.org/hyphenation.en-us
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 3:44:36 AM
+118 verbose etag W/"02f7092bb8cc87e25a8c01419ff73e57"
+119 verbose lastModified Sun, 27 May 2018 04:17:34 GMT
+120 http request GET https://registry.npmjs.org/hyphenation.en-us
+121 verbose request uri https://registry.npmjs.org/hyphenation.de
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 3:44:36 AM
+124 verbose etag W/"f949ca162d9372e8c13db07b76b69817"
+125 verbose lastModified Sun, 27 May 2018 04:17:33 GMT
+126 http request GET https://registry.npmjs.org/hyphenation.de
+127 verbose request uri https://registry.npmjs.org/svgdom
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 3:44:36 AM
+130 verbose etag W/"31ce511bae3793fbc8b88c7100574dee"
+131 verbose lastModified Tue, 12 May 2020 23:31:04 GMT
+132 http request GET https://registry.npmjs.org/svgdom
+133 http 304 https://registry.npmjs.org/fs-extra
+134 verbose headers { date: 'Sat, 09 Oct 2021 03:44:36 GMT',
+134 verbose headers   connection: 'keep-alive',
+134 verbose headers   'cf-ray': '69b49c832ddb6374-ORD',
+134 verbose headers   age: '188',
+134 verbose headers   'cache-control': 'public, max-age=300',
+134 verbose headers   etag: '"92c81e5e10f42193123cc0b8346b3cb2"',
+134 verbose headers   'last-modified': 'Mon, 03 May 2021 22:05:39 GMT',
+134 verbose headers   vary: 'Accept-Encoding',
+134 verbose headers   'cf-cache-status': 'HIT',
+134 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+134 verbose headers   server: 'cloudflare' }
+135 silly get cb [ 304,
+135 silly get   { date: 'Sat, 09 Oct 2021 03:44:36 GMT',
+135 silly get     connection: 'keep-alive',
+135 silly get     'cf-ray': '69b49c832ddb6374-ORD',
+135 silly get     age: '188',
+135 silly get     'cache-control': 'public, max-age=300',
+135 silly get     etag: '"92c81e5e10f42193123cc0b8346b3cb2"',
+135 silly get     'last-modified': 'Mon, 03 May 2021 22:05:39 GMT',
+135 silly get     vary: 'Accept-Encoding',
+135 silly get     'cf-cache-status': 'HIT',
+135 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+135 silly get     server: 'cloudflare' } ]
+136 verbose etag https://registry.npmjs.org/fs-extra from cache
+137 verbose get saving fs-extra to /home/mike/.npm/registry.npmjs.org/fs-extra/.cache.json
+138 http 304 https://registry.npmjs.org/svgdom
+139 verbose headers { date: 'Sat, 09 Oct 2021 03:44:36 GMT',
+139 verbose headers   connection: 'keep-alive',
+139 verbose headers   'cf-ray': '69b49c8328942c9b-ORD',
+139 verbose headers   age: '96',
+139 verbose headers   'cache-control': 'public, max-age=300',
+139 verbose headers   etag: '"31ce511bae3793fbc8b88c7100574dee"',
+139 verbose headers   'last-modified': 'Tue, 12 May 2020 23:31:04 GMT',
+139 verbose headers   vary: 'Accept-Encoding',
+139 verbose headers   'cf-cache-status': 'HIT',
+139 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+139 verbose headers   server: 'cloudflare' }
+140 silly get cb [ 304,
+140 silly get   { date: 'Sat, 09 Oct 2021 03:44:36 GMT',
+140 silly get     connection: 'keep-alive',
+140 silly get     'cf-ray': '69b49c8328942c9b-ORD',
+140 silly get     age: '96',
+140 silly get     'cache-control': 'public, max-age=300',
+140 silly get     etag: '"31ce511bae3793fbc8b88c7100574dee"',
+140 silly get     'last-modified': 'Tue, 12 May 2020 23:31:04 GMT',
+140 silly get     vary: 'Accept-Encoding',
+140 silly get     'cf-cache-status': 'HIT',
+140 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+140 silly get     server: 'cloudflare' } ]
+141 verbose etag https://registry.npmjs.org/svgdom from cache
+142 verbose get saving svgdom to /home/mike/.npm/registry.npmjs.org/svgdom/.cache.json
+143 http 304 https://registry.npmjs.org/stdin
+144 verbose headers { date: 'Sat, 09 Oct 2021 03:44:36 GMT',
+144 verbose headers   connection: 'keep-alive',
+144 verbose headers   'cf-ray': '69b49c831f862968-ORD',
+144 verbose headers   age: '96',
+144 verbose headers   'cache-control': 'public, max-age=300',
+144 verbose headers   etag: '"3f784722593b1303fc8a9d4f0e61e4cc"',
+144 verbose headers   'last-modified': 'Sun, 27 May 2018 18:14:31 GMT',
+144 verbose headers   vary: 'Accept-Encoding',
+144 verbose headers   'cf-cache-status': 'HIT',
+144 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+144 verbose headers   server: 'cloudflare' }
+145 silly get cb [ 304,
+145 silly get   { date: 'Sat, 09 Oct 2021 03:44:36 GMT',
+145 silly get     connection: 'keep-alive',
+145 silly get     'cf-ray': '69b49c831f862968-ORD',
+145 silly get     age: '96',
+145 silly get     'cache-control': 'public, max-age=300',
+145 silly get     etag: '"3f784722593b1303fc8a9d4f0e61e4cc"',
+145 silly get     'last-modified': 'Sun, 27 May 2018 18:14:31 GMT',
+145 silly get     vary: 'Accept-Encoding',
+145 silly get     'cf-cache-status': 'HIT',
+145 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+145 silly get     server: 'cloudflare' } ]
+146 verbose etag https://registry.npmjs.org/stdin from cache
+147 verbose get saving stdin to /home/mike/.npm/registry.npmjs.org/stdin/.cache.json
+148 silly resolveWithNewModule fs-extra@9.1.0 checking installable status
+149 silly cache add args [ 'fs-extra@9.x', null ]
+150 verbose cache add spec fs-extra@9.x
+151 silly cache add parsed spec Result {
+151 silly cache add   raw: 'fs-extra@9.x',
+151 silly cache add   scope: null,
+151 silly cache add   name: 'fs-extra',
+151 silly cache add   rawSpec: '9.x',
+151 silly cache add   spec: '>=9.0.0 <10.0.0',
+151 silly cache add   type: 'range' }
+152 silly addNamed fs-extra@>=9.0.0 <10.0.0
+153 verbose addNamed ">=9.0.0 <10.0.0" is a valid semver range for fs-extra
+154 silly addNameRange { name: 'fs-extra', range: '>=9.0.0 <10.0.0', hasData: false }
+155 silly mapToRegistry name fs-extra
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+159 verbose addNameRange registry:https://registry.npmjs.org/fs-extra not in flight; fetching
+160 verbose stack Error: Missing required argument #1
+160 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+160 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+160 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+160 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+160 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+160 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+160 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+160 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+160 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+160 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+161 verbose cwd /var/www/ogmath.com/LaTeX.js-0.12.4
+162 error Linux 4.15.0-1098-gcp
+163 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "latex.js"
+164 error node v4.2.6
+165 error npm  v3.5.2
+166 error code EMISSINGARG
+167 error typeerror Error: Missing required argument #1
+167 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+167 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+167 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+167 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+167 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+167 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+167 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+167 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+167 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+167 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+168 error typeerror This is an error with npm itself. Please report this error at:
+168 error typeerror     <http://github.com/npm/npm/issues>
+169 verbose exit [ 1, true ]

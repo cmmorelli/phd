@@ -1,0 +1,104 @@
+<html>
+<head>
+<!--
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/latex.js@0.12.4/dist/latex.min.js"></script>
+
+
+</head>
+<p>
+This is my website. You can email me at carlo.morelli@lcisd.org
+<p>
+My ORCHIDi iD: (Postgraduate Publications)
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-5836-7310" href="https://orcid.org/0000-0002-5836-7310" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-5836-7310</a></div>
+<p>
+
+<!--
+<b>Slope-Intercept Form</b>
+<p style="margin-left:40px">The slope-intercept equation of a function is \(f(x)=mx+b\); \(\therefore\) if \(f(x)=\frac{3}{4}x-7\) the slope \(m=\frac{3}{4}\) and the y-intercept is \(-7\).</p>
+<p style="margin-left:40px">Note: The "\(\therefore\)" symbol means "therefore."</p>
+$$\frac{1}{2}$$
+<p>
+<p>
+Type your <i>very own</i> LaTeX and click the button to open in the Overleaf editor:
+<p>
+(I recommend just clicking the open in Overleaf button with what's already in the box below and playing with it from the real Overleaf editor--which is <i>totally free</i>.)
+<p>
+<form action="https://www.overleaf.com/docs" method="post" target="_blank">
+<textarea rows="20" cols="100" name="snip">
+\documentclass[12pt,letterpaper]{article} % declares doctype
+\usepackage[T1]{fontenc} % defines font encoding style [T1] = Roman
+\usepackage{amsmath} % main math typesetting package
+\usepackage{amssymb} % math symbols like \therefore and \blacksquare
+\usepackage{hyperref} % for links and cross-refs
+\usepackage{graphicx} % for importing pictures
+\usepackage{geometry} % tons of options, look it up
+\usepackage{indentfirst} % indents first line of new paragraph
+\usepackage{fancyhdr} % look it up--tons of formatting options
+\usepackage[noeepic]{qtree} % for making trees
+\usepackage{tabularx} % for making tables
+\usepackage{xcolor} % for highlighting words...\colorbox{color}{words to highlight}
+\begin{document}
+
+%%%%%%% DON'T EDIT ABOVE UNLESS YOU KNOW WHAT YOU'RE DOING %%%%%%%%
+
+{\centering{\Huge{Welcome to \LaTeX{}!}}\par}
+\normalsize
+
+\vspace{.15in}
+Here is an example of typesetting normal text:
+\newline
+\-\hspace{1in}\textbf{Bold} text and \textit{italicized} text are cool! \\ % The \\ slashes indicate a line break
+\par
+\vspace{1em} % Use \vspace{} to add vertical space (e.g. 1in; 3px; 4em, etc.)
+You can also \colorbox{pink}{highlight} many \colorbox{yellow}{words}...\colorbox{green}{so cool}!
+
+\section{You Can Create Sections}
+\subsection{And Subsections}\label{billybob} % You can add labels for hyperref cross-links
+    \par
+       This subsection has a \texttt{hidden label} called {"billybob"} that we'll cross-reference later.
+\subsubsection{And SubSubSections}\label{sec:subsublabel}
+
+You can type inline math like this: \(\frac{3}{x}=y\) % \( opens and \) closes inline math.
+
+You can also type aligned multi-line equations:
+\begin{align*}
+12 &= 2x + 7 \\
+12 - 7 &= 2x \\
+5 &= 2x \\
+\therefore x &= \frac{5}{2}
+\end{align*}
+
+You can create trees!
+\par % This is the new paragraph command
+\qtreecentertrue % This centers the tree on the page
+\Tree [.TopLevel % \Tree opens the tree...you must have \usepackage{qtree} in the preamble (it's there now)
+           [.LeftBranch
+               [.SubBranchLeft {Some Example} ] % don't forget the space before closing bracket!
+               [.SubBranchRight {\(y=mx+b\)} ] % math can be nested in trees!
+           ].LeftBranch % You close a branch using the same .BranchName you used to open it.
+           [.RightBranch
+               [.AnotherSubBranch {\textit{Hi students!}} ]
+               [.YetAnotherSubBranch {\colorbox{green}{Trees can have color}!} ]
+           ].RightBranch
+      ].TopLevel 
+\vspace*{\fill} % fills all vertical space to the bottom of existing page
+\newpage % declares new page
+\section{Billy Bob}
+\par
+Take me back to the subsection labeled \colorbox{pink}{\hyperref[billybob]{billybob}}! % example of cross-referencing
+
+\end{document}
+</textarea>
+<p>
+<input type="submit" value="Open in Overleaf">
+</form>
+-->
+
+
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<div id="TOC">
+<ul>
+<li><a href="#introduction-to-matrices-notes-practice">Introduction to Matrices: Notes &amp; Practice</a><ul>
+<li><a href="#what-is-a-matrix"><em>What Is a Matrix?</em></a></li>
+<li><a href="#describing-matrices">Describing Matrices</a></li>
+<li><a href="#graphing-matrices">Graphing Matrices</a></li>
+<li><a href="#converting-systems-of-equations-to-matrices">Converting Systems of Equations to Matrices</a></li>
+<li><a href="#how-to-solve-systems-using-gaussian-elimination">How to Solve Systems Using Gaussian Elimination</a></li>
+</ul></li>
+<li><a href="#now-its-your-turn">Now It’s Your Turn!</a><ul>
+<li><a href="#practice-questions-to-gauge-understanding">Practice Questions to Gauge Understanding</a></li>
+</ul></li>
+</ul>
+</div>
+<h1 id="introduction-to-matrices-notes-practice" class="unnumbered">Introduction to Matrices: Notes &amp; Practice</h1>
+<h3 id="what-is-a-matrix" class="unnumbered"><em>What Is a Matrix?</em></h3>
+<h3 id="describing-matrices" class="unnumbered">Describing Matrices<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></h3>
+<p>[t][2in][t]<span>2.75in</span></p>
+<hr />
+<p>[t][2in][t]<span>2.5in</span></p>
+<h3 id="graphing-matrices" class="unnumbered">Graphing Matrices</h3>
+<p>[t][2in][t]<span>2.7in</span></p>
+<p>[scale=.75] (O) at (0,0,0); (A) at (3,0,0); (B) at (0,4,0); (C) at (0,0,5); (D) at (3,4,5); (E) at (3,0,5); (x) at (3,0,0); (y) at (0,4,0); (z) at (0,0,5); (O)–(x) node[right]<span><span class="math inline">\(x_1\)</span></span>; (O)–(y) node[above]<span><span class="math inline">\(x_2\)</span></span>; (O)–(z) node[right=2pt]<span><span class="math inline">\(x_3\)</span></span>; (O)–(D) node[above right]<span><span class="math inline">\(\vv{\bm{X}}\;\coord(3_{1,1},4_{2,1},5_{3,1})\)</span></span>; (O)–(E) node[right]<span><span class="math inline">\(\coord(3_{x_1},0,5_{x_3})\)</span></span>; (D)–(E); (D,E,O);</p>
+<p>[t][2in][t]<span>2.7in</span></p>
+<p>[scale=.75] (O) at (0,0,0); (A) at (3,0,0); (B) at (0,4,0); (C) at (0,0,5); (D) at (3,4,5); (E) at (3,0,5); (x) at (3,0,0); (y) at (0,4,0); (z) at (0,0,5); (O)–(x) node[right]<span><span class="math inline">\(x\)</span></span>; (O)–(y) node[above]<span><span class="math inline">\(y\)</span></span>; (O)–(z) node[right=2pt]<span><span class="math inline">\(z\)</span></span>; (O)–(D) node[above right]<span><span class="math inline">\(\vv{\bm{X}}\;\coord{(3_{x},4_{y},5_{z}})\)</span></span>; (O)–(E) node[right]<span><span class="math inline">\(\coord(3_x,0_y,5_z)\)</span></span>; (D)–(E); (D,E,O);</p>
+<h2 id="converting-systems-of-equations-to-matrices" class="unnumbered">Converting Systems of Equations to Matrices</h2>
+<p>[t][.5in][t]<span>2.4in</span> Consider the following system of two simultaneous linear equations. How might you convert these equations into matrix form? <span class="math display">\[\systeme{
+                      -8x-3y=-19,
+                      16x-8y=24
+                      }\]</span></p>
+<p>[t][.5in][t]<span>2.4in</span> In order to convert those equations into a matrix we must strip away the letters and use a matrix form called an <em>augmented matrix</em>:</p>
+<p><span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              -8 &amp; -3 &amp; -19 \\
+              16 &amp; -8 &amp; 24
+            \end{bmatrix}
+        \)</span></p>
+<h2 id="how-to-solve-systems-using-gaussian-elimination" class="unnumbered">How to Solve Systems Using Gaussian Elimination</h2>
+<p>Focus on the <strong>left side</strong> of that augmented matrix for a minute.</p>
+<p>[t][.5in][t]<span>2.4in</span> What you want to do is play around with the <em>rows</em> of that augmented matrix until the four numbers on the left side look like this:</p>
+<p>[t][.5in][t]<span>1in</span></p>
+<p><span class="math inline">\(
+        \begin{bmatrix}
+          1 &amp; 0 \\
+          0 &amp; 1
+        \end{bmatrix}
+        \)</span></p>
+<p>[t][.5in][t]<span>2.4in</span> This is called an <strong>identity matrix</strong>. If you can make the <em>left side</em> of your matrix look like this, you will have <strong>solved it</strong> for <em>both variables</em>.</p>
+<p><strong>How do you do this?</strong> You manipulate the <em>entire rows</em> using what are called <em>elementary row operations</em>. <strong>This is <em>much easier</em> than it looks</strong>. Watch this:</p>
+<p>[t][.5in][t]<span>2.5in</span> Here is our augmented matrix again:</p>
+<p><span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              -8 &amp; -3 &amp; -19 \\
+              16 &amp; -8 &amp; 24
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.5in][t]<span>2.4in</span> What if we divided <em>the entire bottom row</em> by <span class="math inline">\(2\)</span> then added it to the top row, replacing the bottom row with the resulting sum?</p>
+<p>[t][.5in][t]<span>2.4in</span> <strong>Step 1</strong>: Divide the whole bottom row by <span class="math inline">\(2\)</span>:</p>
+<p><span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              -8 &amp; -3 &amp; -19 \\
+              \frac{16}{2} &amp; \frac{-8}{2} &amp; \frac{24}{2}
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 2</strong>: (intermediate step): Simplify.</p>
+<p><span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              -8 &amp; -3 &amp; -19 \\
+              8 &amp; -4 &amp; 12
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 3</strong>: Add <em>new</em> bottom row to top row: <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              -8 &amp; -3 &amp; -19 \\
+              ({8+{-8}}) &amp; ({-4+{-3}}) &amp; ({12+{-19}})
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 4</strong>: (intermediate step): Simplify. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              -8 &amp; -3 &amp; -19 \\
+              0 &amp; -7 &amp; 7
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 5</strong>: Divide <em>entire bottom row</em> by <span class="math inline">\(-7\)</span>. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              -8 &amp; -3 &amp; -19 \\
+              \frac{0}{-7} &amp; \frac{-7}{-7} &amp; \frac{7}{-7}
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 6</strong>: (intermediate step): Simplify. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              -8 &amp; -3 &amp; -19 \\
+              0 &amp; 1 &amp; 1
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 7</strong>: Add the bottom row to the top. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              ({-8+0}) &amp; ({-3+1}) &amp; ({-19+1}) \\
+              0 &amp; 1 &amp; 1
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 8</strong>: (intermediate step): Simplify. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              -8 &amp; -2 &amp; -18 \\
+              0 &amp; 1 &amp; 1
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 9</strong>: Divide top row by <span class="math inline">\(-2\)</span>. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              \frac{-8}{-2} &amp; \frac{-2}{-2} &amp; \frac{-18}{-2} \\
+              0 &amp; 1 &amp; 1
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 10</strong>: (intermediate step): Simplify. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              4 &amp; 1 &amp; 9 \\
+              0 &amp; 1 &amp; 1
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 11</strong>: Subtract the bottom row from the top. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              ({4-0}) &amp; ({1-1}) &amp; ({9-1}) \\
+              0 &amp; 1 &amp; 1
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 12</strong>: (intermediate step): Simplify. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              4 &amp; 0 &amp; 8 \\
+              0 &amp; 1 &amp; 1
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Step 13</strong>: Divide the top row by <span class="math inline">\(4\)</span>. <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              \frac{4}{4} &amp; \frac{0}{4} &amp; \frac{8}{4} \\
+              0 &amp; 1 &amp; 1
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>FINAL STEP</strong>: Simplify. You’re done! <span class="math inline">\(
+            \begin{bmatrix}[*1cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              1 &amp; 0 &amp; 2 \\
+              0 &amp; 1 &amp; 1
+            \end{bmatrix}
+        \)</span></p>
+<p>Since the left side is the <strong>identity matrix</strong> <span class="math inline">\({I}={  \left(\begin{smallmatrix}1 &amp; 0 \\ 0 &amp; 1\end{smallmatrix}\right)}\)</span> then <span class="math inline">\(x=2\)</span> and <span class="math inline">\(y=1\)</span>. Thus, the solution to the system of equations is <span class="math inline">\((\coord{2,1})\)</span>.</p>
+<p>You just performed something <span style="font-variant: small-caps;">amazing</span> called <em>Gaussian elimination</em> in order to reduce the original augmented matrix to a new form called <strong>reduced row echelon form</strong>. This technique was invented by Carl Friedrich Gauss (1777–1855). It’s <em>extraordinarily powerful</em> in what it can do with <code>really simple arithmetic</code>.</p>
+<p>You can do the same operations on multiple additional equations, including two, three, or more multiple variable equations too!</p>
+<p>Here are the <strong>three rules</strong> of <em>Gaussian elimination</em>:</p>
+<ol>
+<li><p>You can multiply a row by a non-zero number (negative numbers and fractions are allowed).</p></li>
+<li><p>You can add one row to another row or to a multiple of another row.</p></li>
+<li><p>You can swap the positions of any two rows.</p></li>
+</ol>
+<h1 id="now-its-your-turn" class="unnumbered">Now It’s Your Turn!</h1>
+<h2 id="practice-questions-to-gauge-understanding" class="unnumbered">Practice Questions to Gauge Understanding</h2>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Question 1</strong>: Convert the following system of two linear equations with two variables into an augmented matrix and write your answer in the blank space to the right: <span class="math display">\[\systeme{
+                  12x-3y=3,
+                  3x-7y=24
+                  }\]</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Question 2</strong>: Convert the following system of three linear equations with three variables into an augmented matrix and write your answer in the blank space to the right: <span class="math display">\[\systeme{
+                  -2x + y + z = -5,
+                  x + y + z = 4,
+                  6x + 4y -3z = 8
+                  }\]</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Question 3</strong>: Identify the matrix element located at position <span class="math inline">\((\coord{i_2,j_3})\)</span>.</p>
+<p><span class="math inline">\(
+            \begin{bmatrix}[*2cr@{\quad}|@{\quad}&gt;{\color{black}}r]
+              3 &amp; -4 &amp; 1 &amp; -25 \\
+              2 &amp; 4 &amp; 0 &amp; -2 \\
+              6 &amp; 4 &amp; -3 &amp; 8
+            \end{bmatrix}
+        \)</span></p>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Question 4</strong>: Which of the following are <strong>true</strong> about<em>vectors</em>? (Circle all that apply.)</p>
+<ol>
+<li><p>A. They can rotate freely about the <span class="math inline">\(z\)</span>-axis.</p></li>
+<li><p>B. Vectors have a definite <em>magnitude</em>.</p></li>
+<li><p>C. Vectors do not have any specific direction.</p></li>
+<li><p>D. Vectors were discovered by Carl Friedrich Gauss (1777–1855)</p></li>
+<li><p>E. Vectors have a specific direction.</p></li>
+<li><p>F. The magnitude of a vector in three dimensions is equivalent to the hypotenuse of a right triangle formed by the origin, the distance from the origin to the intersection of the <span class="math inline">\(x\)</span> and <span class="math inline">\(z\)</span> values, and the intersection of the <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, and <span class="math inline">\(z\)</span> values.</p></li>
+<li><p>G. Given the <span class="math inline">\((\coords{x,y,z})\)</span> of the intersection of three planes is located at <span class="math inline">\((\coords{3,4,5})\)</span>, the magnitude of the vector is <span class="math inline">\(5\)</span>.</p></li>
+<li><p>H. <strong>This</strong> is a vector: <span class="math inline">\(\vv{B}={  \left(\begin{smallmatrix}-5\\2\\9\end{smallmatrix}\right)}\)</span></p></li>
+</ol>
+<p>[t][.7in][t]<span>3in</span></p>
+<p><strong>Question 5</strong>: Write down the three rules of Gaussian elimination in the blank space <strong>above</strong>. <span style="font-variant: small-caps;">optional additional <strong><span style="font-variant: small-caps;">bonus challenge</span></strong></span>: Use Gaussian elimination to solve for <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> given the following system of two linear equations with two variables: <span class="math display">\[\systeme{
+                      -3x+10y=-8,
+                      5x-20y=10
+                      }\]</span></p>
+<p><span style="font-variant: small-caps;">THANK YOU FOR COMPLETING THIS ASSIGNMENT.</span></p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><span class="math inline">\(\;\)</span> Matrices: <em>(n.)</em> plural form of matrix; pronounced “may-treh-sees&quot;.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+Running head: PURPOSE OF LITERATURE REVIEW
+
+
+
+
+         The Purpose of a Literature Review
+                                 Carlo Morelli †
+
+
+
+
+                               Dr. Stacey Bridges‡
+                                RES-820C-0501
+                              College of Education
+                             Grand Canyon University
+                                Phoenix, Arizona
+
+
+                             DOI: 10.17613/snds-j517
+
+
+                                 October 3, 2021
+
+
+  † cmorelliii@my.gcu.edu
+  ‡ stacey.bridges@gcu.edu
+PURPOSE OF LITERATURE REVIEW                                                       1
+
+                                        Abstract
+
+                  This article presents a detailed examination of the benefits,
+          challenges, and purpose of conducting a doctoral-level literature re-
+          view. The article analyzes both the cognitive neurolinguistic pro-
+          cessing challenges attending the assimilation and synthesis of large
+          volumes of new information and the metacognitive knowledge strate-
+          gies needed to overcome them. Finally, the article concludes with
+          a topic section identifying the purpose of a doctoral-level literature
+          review.
+
+
+
+                                   Table of Contents
+
+
+
+  Benefits of Conducting Literature Reviews                                        2
+
+  Challenges of Literature Reviews                                                 2
+
+  Purpose of Literature Reviews                                                    3
+
+  References                                                                       4
+
+  Glossary                                                                         4
+
+  Index                                                                            4
+PURPOSE OF LITERATURE REVIEW                                                                   2
+
+
+                         Benefits of Conducting Literature Reviews
+
+
+       According to Walter and Stouck (2020), one purpose of a literature review is to aid the
+doctoral aspirant in the development of their professional, scholarly, doctoral identity. Walter
+and Stouck cites a complementary study by Wisker (2015) which correlates writing literature
+reviews with doctoral students’ metacognitive skill sets, especially including the development
+of the necessary endurance and aptitude needed to be successful in a doctoral program 2020.
+Among the most necessary skills is to attain the ability to conduct what the anthropologist
+Turnbull calls deep reading in his book The Forest People (Turnbull, 1987).
+
+
+                               Challenges of Literature Reviews
+
+
+       The literature review is a daunting process because the doctoral student encounters
+vast, unwieldy quantities of data, often riddled with obscure, arcane, or incomprehensibly poly-
+syllabic words and verbiage (Walter & Stouck, 2020). The first task is merely to comprehend
+the words the student is reading which is nontrivial from a neurological perspective. Indeed,
+the results of an EEG-based empirical study by Kimppa, Shtyrov, Hut, Hedlund, Leminen,
+and Leminen (2018) revealed that adult learners experience much longer processing times
+when acquiring new vocabulary.
+       The Kimppa et al. study also revealed this initial lexical or new word acquisition occurs
+in the slow-to-store but fast-to-lose declarative memory center rather than the more automatic
+and long-term procedural memory center of the human brain (2018). This is to say that
+students must first master the vocabulary of their literature before they may properly review it.
+Luckily, pedagogical and andragogical research have afforded doctoral learners some useful
+tools to aid in this titantic endeavor. In the next section resolutions to these challenges are
+presented. Once the student is equipped with the intellectual tools presented below they may
+proceed to conduct their literature reviews.
+PURPOSE OF LITERATURE REVIEW                                                                3
+
+
+                               Purpose of Literature Reviews
+
+
+       Once students master critical textual analysis of several texts, they must deploy a
+schema for organizing the synthesizing that vast quantity of information using a tool such as
+the thematic matrix which Robinson (2021) refers to as structured tabular thematic analysis or
+ST-TU before they are prepared to write a literature review which includes both an annotated
+bibliography and, among other sections, a topic statement and problem statement. Once key
+themes which recur among all the scholarly research articles included in the ST-TU, a student
+must employ one or more metacognitive knowledge strategies (MKS) (MKSs in order to
+synthesize their main ideas, and integrate them into an emergent, coalescence which may be
+further sublimated into a thesis, topic, or problem statement (Wisker, 2015).
+PURPOSE OF LITERATURE REVIEW                                                                 4
+
+
+                                         References
+
+
+Kimppa, L., Shtyrov, Y., Hut, S. C., Hedlund, L., Leminen, M., & Leminen, A. (2018).
+       Acquisition of L2 morphology by adult language learners. 116(2019), 74–90. doi:
+       10.1016/j.cortex.2019.01.012 (cit. on p. 2)
+Robinson, O. C. (2021). Conducting thematic analysis on brief texts: The structured tabular
+       approach. Qualitative Psychology, 2021(3), 1–15. Advance online publication. doi:
+       10.1037/qup0000189 (cit. on p. 3)
+Turnbull, C. M. (1987). The forest people. Touchstone. (Cit. on p. 2).
+Walter, L., & Stouck, J. (2020). Writing the literature review: Graduate student experiences.
+       Canadian Journal for the Scholarship of Teaching and Learning, 11(1), ii–17. doi:
+       10.5206/cjsotl-rcacea.2020.1.8295 (cit. on p. 2)
+Wisker, G. (2015). Developing doctoral authors: Engaging with theoretical perspectives
+       through the literature review. Innovations in Education and Teaching International,
+       52(1), 64–74. doi: 10.1080/14703297.2014.981841 (cit. on pp. 2, 3)
+
+
+
+                                          Glossary
+
+
+literature review (n.) a comprehensive summary of previous research on a topic. 2
+
+
+structured tabular thematic analysis (n.) a table whose column headers are the titles or
+      authors of the articles included in the literature review and whose rows list the key
+      themes from each article. 3
+PURPOSE OF LITERATURE REVIEW                                                                 5
+
+
+                                           Index
+
+
+
+D                                                  M
+
+Doctoral Identity, 2                               Metacognitive Knowledge Strategies or
+                                                          (MKS), 3
+
+L                                                  S
+Lexical, 2                                         Structured Tabular Thematic Analysis or
+Literature Review, 2                                      (ST-TU), 3
+
+
+
+
+       This article was created entirely using LATEXtypesetting. The reader may access the
+LATEXsource project on Overleaf by visiting this link: https://www.overleaf.com/read/hbnhssbvqspq
+

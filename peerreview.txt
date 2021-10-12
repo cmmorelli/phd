@@ -1,0 +1,177 @@
+                                                                                                        1
+
+
+
+
+                 Academia’s Black Box: The Peer Review Crisis
+
+              A Brief Analysis of Peer Review Process Flows and Their Systemic Vulnerabilities
+
+
+
+
+                                                Carlo Morelli†
+
+
+                            College of Doctoral Studies, Grand Canyon University
+
+
+                           RES-820C-0501: The Literature Landscape: Psychology
+
+
+                                             Dr. Stacey Bridges
+
+
+                                               October 9, 2021
+
+
+
+
+                                                Author Note
+
+
+   †
+       Carlo Morelli: https://orcid.org/0000-0002-5836-7310
+
+
+   No known conflicts of interest to disclose. Funding for this research was provided by Grand Canyon
+
+University and federal student loans. Correspondence concerning this article should be addressed to Carlo
+
+Morelli, College of Doctoral Studies, Grand Canyon University. Email: cmorelliii@my.gcu.edu
+PEER REVIEW CRISIS                                                                                              2
+
+
+                                                    Abstract
+
+
+
+         This paper intends to offer evidence that a crisis exists in peer-reviewed academic publishing whose
+
+     damaging effects impact the academic integrity of the entire worldwide corpus of scholarly research,
+
+     threaten to undermine confidence in all scholarship, and could lead to an epistemological catastrophe if
+
+     left unaddressed.
+
+
+
+                    Identifying the Main Problems and Potential Consequences
+
+
+   A crisis exists in peer-reviewed academic publishing whose damaging effects impact the academic
+
+integrity of the entire worldwide corpus of scholarly research, threaten to undermine confidence in all
+
+scholarship. If left unaddressed, this exigent clutch in academic research could lead to an epistemological
+
+catastrophe. The problem may be stated simply: No universal standards or processes for peer review exist
+
+in scholarly academic publishing (Klebel, Reichmann, Polka, McDowell, Penfold, Hindle, & Ross-Hellauer,
+
+2020). The evidence for this lack of process clarity and standardization is shocking: According to Klebel
+
+et al. (2020), approximately three-fourths of all academic journals offer no insight into their peer review
+
+processes, the identities or credentials of the reviewers, the sources of funding for the research and any
+
+associated conflicts of interest, or indicate whether the published documents being presented as
+
+peer-reviewed are merely preprints or are fully-vetted and edited for publication.
+
+
+   For the earnest doctoral student or practicing academician, this dearth of quality control is an
+
+architectonic nightmare: All academic scholarship is predicated on the notion of citation; in other words,
+
+scholars’ most basic epistemological footing rest upon the reliability and integrity of their cited and
+
+referenced works. If these works’ quality cannot be measured, guaranteed, or otherwise verified, the
+
+quality of any scholarship built upon such references is potentially a house of cards. Any new research
+
+inherits all the defects of its cited works: Since the validity and authority of of modern academic
+
+scholarship is intended to build upon the findings of its references, fuzzy or undefined peer review
+
+standards leave the modern researcher in a quandary; the justification and bona fides of academic writing
+
+is only as strong as its antecedent referenced citations (Klebel et al., 2020).
+
+
+                                              Possible Solutions
+
+
+   According to a commentary by Makel (2014), the practical inability for most scholars to replicate the
+
+research findings they abstract and build upon from their cited works demands the rigor of peer review for
+
+those cited works be utterly paramount. Makel offers a novel solution to the syndrome of extant defects in
+PEER REVIEW CRISIS                                                                                            3
+
+
+peer review, namely, to mandate all academic journals outsource their peer review to an unrelated (and
+
+presumably objectively distant and unbiased) third party (2014). Makel further suggests academicians
+
+submit their preprint manuscripts to online open-access archives and repositories before endeavoring to
+
+publish to give the greater community of scholars a chance to critique the manuscript long before it even
+
+reaches the peer review stage (2014). Finally, Makel proposes all future scholarly articles be required to
+
+offer co-citations, that is, cite the original peer-reviewed article, then cite another totally independent
+
+peer-reviewed article which replicates or otherwise verifies the findings of the original (2014).
+
+
+                                                 Conclusion
+
+
+   These recommendations may help reduce the chance that future scholarship is unintentionally biased
+
+or inadvertently bolsters or restates a false or poorly-validated claim to truth. Truth has been, since at
+
+least the dawn of rational and empirical inquiry in Ancient Greece, the goal of all research. The exact
+
+quote from which this ethical mandate is paraphrased is taken from Aristotle’s Nicomachean Ethics: “τὸν
+
+αὐτὸν δὴ1 τρόπον καὶ ἀποδέχεσθαι χρεὼν ἕκαστον τῶν λεγομένων· πεπαιδευμένου γάρ ἐστιν ἐπὶ τοσοῦτον
+
+τἀκριβὲς ἐπιζητεῖν καθ᾿ ἕκαστον γένος ἐφ᾿ ὅσον ἡ τοῦ πράγματος φύσις ἐπιδέχεται·,” (Aristotle, ca. 350
+
+B.C.E./1926, p. 8, lines 21-25).
+
+
+   The precise English translation Horace Rackham gives is “Accordingly we may ask the student also to
+
+accept the various views we put forward in the same spirit; for it is the mark of an educated mind to
+
+expect that amount of exactness in each kind which the nature of the particular subject admits,”
+
+(Aristotle, ca. 350 B.C.E./1926, p. 9, trans. H. Rackham). This author shares Aristotle’ conclusion: it is
+
+the scholar’s moral obligation to pursue and, above all else, ascertain the truth to its most granular and
+
+atomic fineness (Aristotle, ca. 350 B.C.E./1926).
+PEER REVIEW CRISIS                                                                                         4
+
+
+                                                References
+
+
+
+Aristotle. (1926). Nicomachean ethics (H. Rackham, Trans.). In, Loeb Classical Library [73]. Harvard University
+
+        Press. (Original work published ca. 350 B.C.E.). (Cit. on p. 3)
+
+Klebel, T., Reichmann, S., Polka, J., McDowell, G., Penfold, N., Hindle, S., & Ross-Hellauer, T. (2020).
+
+        Peer review and preprint policies are unclear at most major journals. PLOS One, 15 (10), 1–19.
+
+        https://doi.org/10.1101/2020.01.24.918995 (cit. on p. 2)
+
+Makel, M. C. (2014). The empirical march: Making science better at self-correction. Psychology of Aesthetics,
+
+        Creativity, and the Arts, 8 (1), 2–7. https://doi.org/10.1037/a0035803 (cit. on pp. 2, 3)
+

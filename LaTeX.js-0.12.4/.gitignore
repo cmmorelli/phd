@@ -1,0 +1,11 @@
+.uuid
+.vscode
+*.stats.html
+/bin/
+/dist/
+/website/
+/node_modules/
+/test/coverage/
+/test/test-results.xml
+/test/screenshots/test-results.xml
+/.nyc_output/

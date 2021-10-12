@@ -1,0 +1,130 @@
+1
+
+The Doctoral Student Math Problem
+Evidence indicating most doctoral students’ underdeveloped math skills lead to attrition
+
+Carlo Morelli†
+College of Doctoral Studies, Grand Canyon University
+RES-820C-0501: The Literature Landscape: Psychology
+Dr. Stacey Bridges‡
+October 10, 2021
+DOI: https://doi.org/10.17613/5z1h-1z76
+Author Note
+† Carlo
+‡ Dr.
+
+Morelli: https://orcid.org/0000-0002-5836-7310
+Stacey Bridges: stacey.bridges@gcu.edu
+
+No known conflicts of interest to disclose. Funding for this research was provided by Grand Canyon University and federal
+student loans. This document was written in LaTeX and the source code may be viewed and/or copied and adapted by
+clicking here: https://www.overleaf.com/read/drrqvkqymdxg.
+If you copy the document to use as a template for your own work, you must abide by its Creative Commons license. This
+document is licensed by the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+4.0) standard. Read more about CC BY-NC-SA 4.0 here: https://creativecommons.org/licenses/by-nc-sa/4.0/. Correspondence
+concerning this article should be addressed to Carlo Morelli, College of Doctoral Studies, Grand Canyon University. Email:
+cmorelliii@my.gcu.edu
+
+DOCTORAL MATH PROBLEM
+
+2
+
+Abstract
+
+This paper presents evidence indicating doctoral students’
+mathematical, logical, and statistical skills are too underdeveloped
+to understand, validate, and replicate findings in scholarly research
+or conduct such researches on their own leading to high attrition
+rates (Bickel, 2021).
+The status quo in doctoral education is in dire need of
+enhanced mathematical, logical, and statistical training—remediation
+is needed now. According to Cronley, Black, and Killian (2019),
+most doctoral students pursuing PhDs in non-STEM related
+disciplines fail to complete their dissertations and attrite. While
+many factors contribute to doctoral attrition, among the most
+commonly identified reasons students fail are their impoverished
+mathematical abilities, misuse and misunderstanding of logical
+reasoning, and lack of computational and analytical skills needed
+to calculate and evaluate statistics (Cronley et al., 2019). Statistical
+analysis is one of the core skills required for successful doctoral
+research Harrington, Petr, Black, Cunningham-Williams, and
+Bentley (2014).
+
+DOCTORAL MATH PROBLEM
+
+3
+
+Introduction: The Math Problem
+Establishing Status Quo Statistical Analysis Illiteracy among Doctoral Students
+Presently, a majority of doctoral students lack the mathematical, logical, and statistical skills
+necessary to complete their degrees and immediate intervention and remediation is both timely and necessary
+(Cronley et al., 2019; Harrington et al., 2014; & Petr et al., 2015). The importance of statistical, logical,
+and mathematical literacy is attested to by a study published by Harrington et al. (2014): Among the
+nine main skills deemed utterly compulsory and essential to doctoral success, mathematics and specifically
+statistical analysis were identified as two of the most acutely critical. Unfortunately, there is a dearth of
+mathematical, logical, and statistical literacy among doctoral students: According to a study by Petr et al.
+(2015) cited in an article by Cronley et al. (2019), most doctoral students in non-STEM PhD programs
+lack sufficient training in statistical analysis.
+As a result, Cronley et al. indicates the majority of non-STEM doctoral candidates are poorly
+educated in statistical analysis (2019). Such students may be completely ignorant of the mathematical and
+logical significance of the descriptive and inferential statistics which are ubiquitous in modern academic
+scholarship. The studies by both Cronley et al. (2019) and Petr et al. (2015) emphasize the absolute
+necessity for reform, intervention, and training of existing and future doctoral candidates in statistical,
+logical, and mathematical analysis.
+The Exigent Necessity of Statistical Knowledge & Skills for Doctoral Learners
+The admonitory mandate cited above holds true even if doctoral students are pursuing a qualitative
+dissertation or are enrolled in a non-STEM related doctoral program Cronley et al. (2019): The doctoral
+candidates’ abilities to analyze the results, assumptions, and criteria of empirical research they reference
+will be hobbled; the potential for drawing false conclusions will be accentuated; the ability of statistically-inept
+students to evaluate the credibility of their sources will be reduced or eliminated; and doctoral attrition
+rates will continue to rise beyond their current rates exceeding fifty percent. It is an urgent, exigent illiteracy
+that must be immediately mended or doctoral students lacking these knowledge and skills will have little
+hope of ever completing a dissertation that requires even a modicum of empirical data collection and analysis
+(Cronley et al., 2019; Bickel, 2021; Harrington et al., 2014; and Petr et al., 2015).
+
+DOCTORAL MATH PROBLEM
+
+4
+
+Justification for Remediation of Null Hypothesis Testing Skills
+Studies and analyses by Klebel, Reichmann, Polka, McDowell, Penfold, Hindle, and Ross-Hellauer
+(2020) and the editors of the Publication Manual of the American Psychological Association (2019) ramify
+the centrality and importance of validating and critiquing cited works. According to Bickel (2021), the
+null hypothesis test is among the least understood yet most consequential statistical metrics needed to
+evaluate the credibility of and critique the empirical techniques and findings of any scholarly academic
+study. Successful doctoral candidates must master their [mis]understandings of the null hypothesis, learn
+how to perform this test in their own research, and learn how to interpret the results of a null hypothesis
+test (i.e. learn how to evaluate the test’s resulting P-Value and make a Boolean decision to either accept
+or reject the null hypothesis).
+
+DOCTORAL MATH PROBLEM
+
+5
+
+References
+
+American Pschological Association. (2019). Publication Manual of the American Psychological Association
+(7, Ed.). https://doi.org/10.1037/0000165-000. (Cit. on p. 4)
+Bickel, D. R. (2021). Null hypothesis significance testing defended and calibrated by bayesian model checking.
+The American Statistician, 75 (3), 249–255. https : / / doi . org / 10 . 1080 / 00031305 . 2019 . 1699443
+(cit. on pp. 2–4)
+Cronley, C., Black, B., & Killian, M. (2019). Teaching note—preparing doctoral students to confront the
+grand challenges: Strengthening baseline statistical skills. Journal of Social Work Education, 55 (2),
+389–395. https://doi.org/10.1080/10437797.2018.1544520 (cit. on pp. 2, 3)
+Harrington, D., Petr, C. G., Black, B. M., Cunningham-Williams, R. M., & Bentley, K. J. (2014). Quality
+guidelines for social work PhD programs. Research on Social Work Practice, 24 (3), 281–286. https:
+//doi.org/10.1177/1049731513517145 (cit. on pp. 2, 3)
+Klebel, T., Reichmann, S., Polka, J., McDowell, G., Penfold, N., Hindle, S., & Ross-Hellauer, T. (2020).
+Peer review and preprint policies are unclear at most major journals. PLOS One, 15 (10), 1–19.
+https://doi.org/10.1101/2020.01.24.918995 (cit. on p. 4)
+Petr, C. C., Harrington, D., Kim, K., Black, B., Cunningham-Williams, R. M., & Bentley, K. J. (2015).
+Quality indicators and expected outcomes for social work PhD programs: Perceptions of social
+work students, faculty, and administrators. Journal of Social Work Education, 51 (4), 648–667.
+https://doi.org/10.1080/10437797.2015.1076272 (cit. on p. 3)
+
+APA Citation for This Article
+Morelli, C. M. (2021). The doctoral student math problem: Evidence indicating most doctoral students’
+underdeveloped math skills lead to attrition. Unpublished manuscript. Grand Canyon University:
+College of Doctoral Studies. Deposited in Humanities Commons. https://doi.org/10.17613/5z1h-1z76
+
+
